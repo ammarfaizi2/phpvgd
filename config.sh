@@ -3,4 +3,5 @@
 ./configure \
 	--enable-debug	\
 	--enable-maintainer-zts \
-	--enable-hello
+	--with-tsrm-pthreads \
+	--enable-vgd
